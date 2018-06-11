@@ -49,9 +49,10 @@ body {
     margin: 0 auto;
 }
 
-.main .left {
-    border-style: dotted dashed solid double;
+.main .main-left {
+   
     max-width: 300px;
+    border-right:1px solid black;
 
 }
 
