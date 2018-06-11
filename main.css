@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding-left: 130px;
+    margin-top: 85px;
+}
+
+.container-wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header {}
+
+.header-wrapper {}
+
+.rectangle {
+    width: 40px;
+    height: 4px;
+    background-color: #f7295c;
+}
+
+.header .main-text {
+    padding-top: 8px;
+    /* width: 942px;
+    height: 52px; */
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 300;
+    /* font-style: normal;
+    font-stretch: normal; */
+    line-height: 1.53;
+    letter-spacing: 0.1px;
+    color: #002836;
+}
+
+.main {
+    margin-top: 74px;
+}
+
+.main-wrapper {
+    margin: 0 auto;
+}
+
+.main .platform-text {
+    /* width: 123px;
+    height: 20px; */
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #083b52;
+    padding-top: 9px;
+}
+
+.main .suite {
+    margin-top: 56px;
+    display: inline-block;
+    /* height: 130px; */
+    background-color: #ffffff;
+}
+
+
+.main .suite .logo-suite{
+    
+    float: left; 
+}
+
+
+
+.suite .alice-suite .bottom-content {
+
+    float: right;
+    width: 200px;
+}
+
+.suite .alice-suite {
+    width: 263px;
+    /*height: 24px; */
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #002836;
+    padding-top: 21px;
+}
