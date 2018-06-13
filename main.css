@@ -7,6 +7,10 @@ body {
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     padding-left: 130px;
     margin-top: 85px;
@@ -33,13 +37,9 @@ body {
 
 .header .main-text {
     padding-top: 8px;
-    /* width: 942px;
-    height: 52px; */
     font-family: Roboto;
     font-size: 34px;
     font-weight: 300;
-    /* font-style: normal;
-    font-stretch: normal; */
     line-height: 1.53;
     letter-spacing: 0.1px;
     color: #002836;
@@ -47,6 +47,7 @@ body {
 
 .main {
     margin-top: 74px;
+    overflow: hidden;
 }
 
 .main-wrapper {
@@ -55,15 +56,11 @@ body {
 }
 
 .main .main-left {
-    /* border-right: solid 0.5px #083b52; */
-    /* padding-right: 39px; */
     float: left;
     max-width: 315px;
 }
 
 .main .platform-text {
-    /* width: 123px;
-    height: 20px; */
     font-family: Roboto;
     font-size: 17px;
     font-weight: normal;
@@ -78,7 +75,6 @@ body {
 .main .suite {
     margin-top: 56px;
     display: inline-block;
-    /* height: 130px; */
     background-color: #ffffff;
 }
 
@@ -89,6 +85,7 @@ body {
 .suite .alice-suite .bottom-content {
     width: 250px;
     padding-right: 20px;
+    
 }
 
 .suite .alice-suite {
@@ -108,12 +105,15 @@ body {
 .suite .align-left {
     float: left;
     width: 52px;
+    padding-top: 12px;
 }
 
 .suite .align-right {
     float: right;
     width: 263px;
     padding-left: 12px;
+    padding-bottom: 23px;
+    padding-right: 23px;
 }
 
 .alice-suite-text-margin {
@@ -133,17 +133,36 @@ body {
     color: #4a4a4a;
 }
 
-.main .main-right {
-    width: 933px;
-    border-left: 0.5px solid black;
+.main .main-middle {
+    /* max-width: 933px; */
+    border-left: 0.5px solid #083b52;
     padding-left: 39px;
+    margin-left: 38px;
 }
 
-.main-right .left .ul {
+.main .left ul {
     padding-top: 27px;
 }
 
-.main-right .header-text {
+.main .left .ul li .img-size {
+    width: 52px;
+    /* overflow: hidden; */
+    vertical-align: middle;
+}
+
+.main .left ul li .link-main {
+    padding-top: 27px;
+    /* overflow: hidden; */
+    display: inline-block;
+}
+
+.main .left ul li .content {
+    /* max-width: 100px; */
+    /* overflow: hidden; */
+    padding-left: 12px;
+}
+
+.main .header-text {
     /* width: 90px;
   height: 24px; */
     font-family: Roboto;
@@ -154,4 +173,85 @@ body {
     line-height: normal;
     letter-spacing: normal;
     color: #002836;
+}
+
+.main .para-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.main .main-right {
+    /* max-width: 933px; */
+    /* border-left: 0.5px solid black; */
+    padding-left: 39px;
+    margin-left: 15px;
+}
+
+footer {
+    border-top: solid 1px #019bb3;
+    padding-top: 44px;
+    margin-top: 87px;
+    margin-bottom: 87px;
+
+}
+
+footer .footer-wrapper {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.footer-area {
+    margin-top: 31px;
+}
+
+footer .footer-area a {
+    /* width: 91.2px;
+    height: 16px; */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    text-align: center;
+    color: #4a4a4a;
+    padding: 12px;
+    text-decoration: none;
+}
+
+footer .app-social {
+    margin-top: 21px;
+    padding-left: 50px;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+footer .app-social-wrapper {
+    max-width: 448px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer .app-social .apple-logo {
+    /* float: left; */
+    width: 113px;
+    /* padding-left: 50px; */
+}
+
+footer .app-social .google-logo {
+    width: 113px;
+    padding-left: 23px;
+}
+
+footer .app-social .social-img {
+    padding-left: 118px;
 }
