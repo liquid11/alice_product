@@ -12,12 +12,17 @@ ul {
 }
 
 .container {
-    padding-left: 130px;
+    /* padding-left: 130px; */
     margin-top: 85px;
 }
 
 .left {
     float: left;
+}
+
+header .header-wrapper {
+    margin: 0 auto;
+    max-width: 1101px;
 }
 
 .right {
@@ -27,6 +32,8 @@ ul {
 .container-wrapper {
     margin: 0 auto;
     max-width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .rectangle {
@@ -52,7 +59,7 @@ ul {
 
 .main-wrapper {
     margin: 0 auto;
-    max-width: 1309px;
+    max-width: 1101px;
 }
 
 .main .main-left {
@@ -85,7 +92,6 @@ ul {
 .suite .alice-suite .bottom-content {
     width: 250px;
     padding-right: 20px;
-    
 }
 
 .suite .alice-suite {
@@ -198,12 +204,13 @@ footer {
     padding-top: 44px;
     margin-top: 87px;
     margin-bottom: 87px;
-
 }
 
 footer .footer-wrapper {
     margin: 0 auto;
-    max-width: 1220px;
+    /* max-width: 1220px; */
+    /* max-width: 1152px; */
+    max-width: 1244px;
 }
 
 .footer-area {
@@ -236,7 +243,7 @@ footer img {
 }
 
 footer .app-social-wrapper {
-    max-width: 448px;
+    max-width: 475px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -254,4 +261,12 @@ footer .app-social .google-logo {
 
 footer .app-social .social-img {
     padding-left: 118px;
+}
+
+footer .app-social .social-img a {
+    text-decoration: none
+}
+
+footer .app-social .social-img .padding-left {
+    padding-left: 18px;
 }
