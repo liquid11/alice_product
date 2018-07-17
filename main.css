@@ -44,7 +44,6 @@ header .header-wrapper {
 
 .header .main-text {
     padding-top: 8px;
-    font-family: Roboto;
     font-size: 34px;
     font-weight: 300;
     line-height: 1.53;
@@ -68,7 +67,6 @@ header .header-wrapper {
 }
 
 .main .platform-text {
-    font-family: Roboto;
     font-size: 17px;
     font-weight: normal;
     font-style: normal;
@@ -97,7 +95,6 @@ header .header-wrapper {
 .suite .alice-suite {
     width: 263px;
     /*height: 24px; */
-    font-family: Roboto;
     font-size: 21px;
     font-weight: normal;
     font-style: normal;
@@ -129,7 +126,6 @@ header .header-wrapper {
 .alice-suite-text-margin h3 {
     /* width: 263px;
     height: 60px; */
-    font-family: Roboto;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -171,7 +167,6 @@ header .header-wrapper {
 .main .header-text {
     /* width: 90px;
   height: 24px; */
-    font-family: Roboto;
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
@@ -182,7 +177,6 @@ header .header-wrapper {
 }
 
 .main .para-text {
-    font-family: Roboto;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -217,10 +211,13 @@ footer .footer-wrapper {
     margin-top: 31px;
 }
 
+.footer .footer-area li {
+    float: left;
+}
+
 footer .footer-area a {
     /* width: 91.2px;
     height: 16px; */
-    font-family: Roboto;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -231,6 +228,8 @@ footer .footer-area a {
     color: #4a4a4a;
     padding: 12px;
     text-decoration: none;
+    color: #083b52;
+    display: block;
 }
 
 footer .app-social {
@@ -264,9 +263,115 @@ footer .app-social .social-img {
 }
 
 footer .app-social .social-img a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 footer .app-social .social-img .padding-left {
     padding-left: 18px;
+}
+
+@media only screen and (max-width:767px) {
+    .main img {
+        width: 48px;
+    }
+    .header .main-text {
+        /* width: 310px;
+        height: 64px; */
+        font-size: 21px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #002836;
+    }
+    .main .suite {
+        background-color: transparent;
+    }
+    .main .platform-text {
+        border-bottom: solid 1px #979797;
+        padding-bottom: 13px;
+    }
+    .suite .align-left img {
+        width: 48px;
+    }
+    .alice-suite-text-margin h3 {
+        display: none;
+    }
+    .main .main-left {
+        float: none;
+    }
+    .main .main-middle {
+        border-left: unset;
+        padding-left: unset;
+        margin-left: unset;
+        float: none;
+        margin-top: 73px;
+    }
+    .main .left ul li .link-main {
+        /* padding-top: ; */
+        display: block;
+        overflow: hidden;
+        padding-top: unset;
+    }
+    .main .left ul li:not(:first-child) .link-main {
+        padding-top: 27px;
+    }
+    .img-size {
+        float: left !important;
+    }
+    .img-size .left img {
+        width: 48px !important;
+        margin-top: 73px;
+    }
+    .main .left ul li .content {
+        padding-top: 19px;
+        float: left;
+    }
+    .main .header-text {
+        font-size: 18px;
+    }
+    .main .para-text {
+        display: none;
+    }
+    .main-middle .left {
+        float: none;
+    }
+    .main .main-right {
+        border-left: unset;
+        padding-left: unset;
+        margin-left: unset;
+        margin-top: 73px;
+        float: none;
+    }
+    .main-right .left {
+        float: none;
+    }
+    /* footer */
+    .footer-area {
+        text-align: center;
+        float: none;
+    }
+    footer .footer-wrapper {
+        max-width: 375px;
+    }
+    footer .app-social {
+        text-align: center;
+        padding-left: unset;
+        float: none;
+    }
+    footer .app-social-wrapper {
+        max-width: 250px;
+    }
+    footer .app-social .social-img {
+        padding-top: 12px;
+        padding-left: 59px;
+        /* margin-top: 12px; */
+    }
+    .footer .footer-area li {
+        float: unset;
+    }
+    footer .footer-area ul li:not(:first-child) {
+        padding-top: 13px;
+    }
 }
